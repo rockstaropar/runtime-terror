@@ -1,0 +1,10 @@
+x=int(input())
+y=int(input())
+c=0
+while(x+5<(y+5)):
+	x+=5
+	c+=1
+while(x>y):
+	x-=1
+	c+=1
+print(c)
